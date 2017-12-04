@@ -10,15 +10,15 @@ var PORT = process.env.PORT || 3000 ;
 // =============================================================
 
 // Sets up BodyParser
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use (bodyParser.text());
 app.use (bodyParser.json ({type: "application/vnd.api+json"}));
 // =============================================================
 
 // Routing
-require('.routing/apiRoutes')(app);
-require('.routing/htmlRoutes')(app);
+require("./app/routes/apiRoutes")(app);
+require("./app/routes/htmlRoutes")(app);
 // =============================================================
 // Listener
 app.listen(PORT, function(){
