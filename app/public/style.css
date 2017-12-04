@@ -1,138 +1,33 @@
-.container {
+.jumbotron{
+  background-color: black;
+  text-align: center;
+  color: white;
+  max-height: 300px;
+  margin-top: 20px;
+  padding-top: 20px;
 
 }
 
-.jumbotron {
-
+h2{
+  color: purple;
 }
 
-.center-block {
-
+body{
+  background-color: lemonchiffon;
 }
 
-.title {
+a{
+  font-size: 20px;
 
 }
-
-.btn {
-
+.container{
+  text-align: center;
+  font-family: Menlo;
 }
 
-.btn-lg {
-
-}
-
-.btn-primary {
-
-}
-
-.glyphicon {
-
-}
-
-
-.fa-paw {
-
-}
-
-.img-rounded {
-
-}
-
-.img-responsive {
-
-}
-
-.footer {
-
-}
-
-.container {
-
-}
-
-.img-responsive {
-
-}
-
-.img-rounded {
-
-}
-
-.sadpupper {
-
-}
-
-.container {
-
-}
-
-.surveytitle {
-
-}
-
-.form-control {
-
-}
-
-.chosen-select {
-
-}
-
-.btn {
-
-}
-
-.btn-primary {
-
-}
-
-.btn-lg {
-
-}
-
-.btn-block {
-
-}
-
-.fa {
-
-}
-
-.fa-paw {
-
-}
-
-.footer {
-
-}
-
-.modal {
-
-}
-
-
-.modal-dialog {
-
-}
-
-.modal-content {
-
-}
-
-.modal-header {
-
-}
-
-.close {
-
-}
-
-
-.resultimage {
-
-}
-
-.modal-footer {
+.puppers{
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 
 }
