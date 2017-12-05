@@ -10,6 +10,7 @@
 
 h2{
   color: purple;
+  font-weight: bold;
 }
 
 body{
@@ -30,4 +31,7 @@ a{
   margin: 0 auto;
   margin-bottom: 10px;
 
+}
+.chosen-select{
+  width: 100%;
 }
